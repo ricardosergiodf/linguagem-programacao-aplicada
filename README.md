@@ -1,13 +1,13 @@
 # Instalação pygame
 
-pip install pygame
+``pip install pygame``
 
 
 # Criação do ambiente virtual venv:
 
-virtualenv venv (ou .venv para deixar a venv oculta)
-venv\Scripts\activate (ativar)
-deactivate (desativar)
+``virtualenv venv`` (ou .venv para deixar a venv oculta)
+``venv\Scripts\activate`` (ativar)
+``deactivate`` (desativar)
 
 
 # Utilizar o .gitignore
@@ -18,17 +18,17 @@ Utilizar o .gitignore para ignorar os arquivos sensíveis do projeto
 
 # Verificar as dependências do projeto
 
-pip freeze
-pip freeze > requirements.txt  (enviar as dependências do projeto para um .txt)
+``pip freeze``
+``pip freeze > requirements.txt``  (enviar as dependências do projeto para um .txt)
 
 
 # Instalar dependências utilizando o requirements.txt
 
-pip install requirements.txt
+``pip install requirements.txt``
 
 
 # Usando o pygame
 
-pygame.init()
+``pygame.init()``
 utilizar eventos -> https://pygame.org/docs/ref/event.html
 
